@@ -1,0 +1,435 @@
+
+.quiz_title{
+    font-size: 12px;
+    font-weight: 700;
+    color: #292d3f;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.file-drop-area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 25px;
+    border: 1px dashed rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    transition: .2s
+}
+
+.choose-file-button {
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+.file-message {
+    font-size: small;
+    font-weight: 300;
+    line-height: 1.4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.file-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    widows: 100%;
+    cursor: pointer;
+    opacity: 0
+}
+
+textarea.form-control {
+   height: auto!important;
+}
+.quiz_card_area{position: relative;margin-bottom: 30px;}
+.single_quiz_card{
+    /* border:1px solid #efefef; */
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -khtml-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.single_quiz_card:hover {
+    box-shadow: 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%) ;
+
+}
+.quiz_card_title{
+    padding: 1px;
+    text-align: center;
+    background-color: #fff;
+}
+.quiz_card_title h3{
+    font-size: 0.52rem;
+    font-weight: 500;
+    color: #adb5bd;
+    margin-bottom: 0;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -khtml-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.quiz_card_title h3 i{opacity: 0;}
+.quiz_card_icon{
+    max-width: 100%;
+    min-height: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz_icon {
+    width: 70px;
+    height: 55px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -khtml-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.quiz_icon1{
+    background-image: url('https://img.icons8.com/ios-filled/32/000000/maxcdn.png');
+}
+.quiz_icon2{
+    background-image: url('https://img.icons8.com/ios-filled/48/000000/download-2.png');
+}
+.quiz_icon3{
+    background-image: url('https://img.icons8.com/ios/50/000000/cloudflare.png');
+}
+.quiz_icon4{
+    background-image: url('https://img.icons8.com/dotty/80/000000/download-2.png');
+}
+.quiz_checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    cursor: pointer;
+}  
+/* .quiz_checkbox:checked ~ .single_quiz_card{border: 1px solid #2575fc;}
+.quiz_checkbox:checked:hover ~ .single_quiz_card{border: 1px solid #2575fc;} */
+
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_title{background-color:#fff; color: #adb5bd; box-shadow: 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%) ;
+}
+/* .quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_title h3{color: #ffffff;    box-shadow: 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%) ;
+} */
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_title h3 i{
+    opacity: 1;    
+    color: #4dabf7;
+}
+.quiz_checkbox:checked:hover ~ .quiz_card_title{/*border: 1px solid #2575fc; */   
+    /* box-shadow: 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%) ; */
+    color: #adb5bd;
+    width: 55px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;}
+
+    .quiz_card_content:hover {
+        box-shadow: 0 0.12rem 0.125rem 0 rgb(0 0 0 / 5%);
+    }
+
+/*Icon Selector*/
+
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_icon {color: #4dabf7;}
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_icon .quiz_icon1{
+   
+    background-size: contain;
+}
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_icon .quiz_icon2{
+
+    background-size: contain;
+
+}
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_icon .quiz_icon3{
+    background-image: url('https://img.icons8.com/color/48/000000/cloudflare.png');
+    background-size: contain;
+
+}
+.quiz_checkbox:checked ~ .single_quiz_card .quiz_card_content .quiz_card_icon .quiz_icon4{
+    background-image: url('https://img.icons8.com/material-outlined/80/000000/download-2.png');
+    background-size: contain;
+
+}
+
+.quiz_card_icon{
+    font-size: 1rem;
+    color: #c8c8c8;
+}
+
+.quiz_backBtn_progressBar{
+    position: relative;
+    margin-bottom: 60px;
+}
+.quiz_backBtn{
+    background-color: transparent;
+    border: 1px solid #d2d2d3;
+    color: #8e8e8e;
+    border-radius: 50%;
+    position: absolute;
+    top: -17px;
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none!important;
+}
+.quiz_backBtn:hover{color: #a9559b;border: 1px solid #4dabf7;}
+.quiz_backBtn_progressBar .progress{margin-left: 50px;margin-top: 50px;height: 6px;}
+.quiz_backBtn_progressBar .progress-bar{
+    background-color: #4dabf7;
+}
+.quiz_next{
+    text-align: center;
+    margin-top: 50px;
+}
+.quiz_continueBtn{
+    max-width: 315px;
+    background-color: #4dabf7;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 125px;
+    border: 0;
+}
+.tab-content {
+  height: 100%!important;
+}
+.map-container {
+    height: 80vh;
+    }
+     
+    .sidebar {
+    /* background-color: rgba(35, 55, 75, 0.9); */
+    background: #fff;
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+    }
+h2.amenties-header {
+    font-size: 16px;
+    /* border-bottom: 1px solid #337ab7; */
+    /* background:#337ab7; */
+    color: #737B8B;
+    margin-bottom: 3px;
+    /* width: 100px; */
+}
+
+
+    .item .item-content {
+        padding: 30px 35px
+    }
+    
+    .image-upload {
+        width: 100%;
+        height: 300px;
+        border: 1px dashed #ddd;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        position: relative;
+        text-align: center;
+        background: #f8f8f9;
+        color: #666;
+        overflow: hidden
+    }
+    
+    .item-wrapper form img {
+        margin-bottom: 20px;
+        width: auto;
+        height: auto;
+        max-height: 400px;
+        width: auto;
+        border-radius: 5px;
+        overflow: hidden
+    }
+    
+    .image-upload img {
+        height: 100% !important;
+        width: auto !important;
+        border-radius: 0px;
+        margin: 0 auto
+    }
+    
+    .image-upload i {
+        font-size: 6em;
+        color: #ccc
+    }
+    
+    .image-upload input {
+        cursor: pointer;
+        opacity: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        position: absolute;
+        top: 0;
+        left: 0
+    }
+    
+    .item-wrapper input {
+        height: 43px;
+        line-height: 43px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        margin-bottom: 20px
+    }
+
+    input[type=text], select, textarea {
+        height: 3.5rem!important;
+        border: 1px solid #cdd4df;
+        border-radius: 0.55rem!important;
+        padding: 5px 15px;
+
+    }
+    .mapboxgl-ctrl-geocoder, .mapboxgl-ctrl-geocoder .suggestions {
+        box-shadow: none!important;
+    }
+    .filter-input {
+       width: 100%!important;
+    }
+    .mapboxgl-ctrl-geocoder {
+        width: 100%!important;
+        max-width: 100%!important;
+    }
+    .mapboxgl-ctrl-geocoder--input:focus {
+      border-style: none!important;
+
+    }
+    .tab-content {
+       border: none;
+    }
+    .dzu-dropzone {
+        overflow: hidden!important;
+        border: 1px solid #cdd4df!important;
+        border-radius: 0.25rem!important;
+    }
+    button {
+        border-radius: .25rem;
+    }
+    .dzu-previewButton:nth-child(3) {
+        display: none;
+    }
+    .dzu-previewImage {
+        max-height: 12vh!important;
+    }
+
+
+    .react-mapbox-ac-menu {
+        width: auto;
+        position: absolute;
+        z-index: 9999;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        margin-top: -1.3rem;
+      }
+       
+      .react-mapbox-ac-input {
+        margin-bottom: 1.5rem;
+      }
+       
+      .react-mapbox-ac-suggestion {
+        font-size: 18px;
+        margin-bottom: .5rem;
+        cursor: pointer;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+       
+      .react-mapbox-ac-suggestion:hover {
+        background-color: #58a;
+      }
+
+      .search {
+        margin-bottom: 1.5rem;
+      }
+
+
+
+      .react-geocoder {
+        position: relative;
+        width: 100%!important;
+        height: 3.5rem;
+    }
+    
+    .react-geocoder input {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: .875rem;
+        font-weight: 400;
+        line-height: 2.5;
+        color: #737B8B;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #f5f5f5;
+        appearance: none;
+         border-radius: .75rem;
+        transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+
+    }
+    
+    .react-geocoder-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        padding: 2rem 1rem;
+        z-index: 1;
+        /* border: 1px solid #cdd4df; */
+        background: #fff!important;
+        width: 100%;
+    }
+    
+    .react-geocoder-item {
+        /* border-bottom: 1px solid #cdd4df; */
+        padding: 0.5rem;
+    }
+    .react-geocoder-item:hover {
+        background-color: #8e8e8e;
+        color: #fff;
+    }
+    .quiz_card_icon .fab, .far {
+    font-size: 70px;
+}
+
+.quiz_card_icon i {
+    font-size: 60px;
+}
+
+.rmsc .dropdown-heading {  height: 3.5rem!important;
+}

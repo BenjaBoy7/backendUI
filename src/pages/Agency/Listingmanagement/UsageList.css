@@ -1,0 +1,52 @@
+.MuiInputLabel-outlined.MuiInputLabel-shrink {
+    display: none;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 15;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding: 0;
+    background: #fff;
+    line-height: 0.5rem;
+     /* max-height: 4.5rem;  */
+    overflow-y: hidden;
+    top: 0;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    padding: 0!important;
+}
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border: 1px solid #cdd4df!important;
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+    padding-right: 50px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    padding-left: 0px!important;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+    border: none!important;
+}
+.MuiOutlinedInput-notchedOutline {
+    top: 0px!important;
+}
+.MuiChip-label {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 12px;
+    font-size: 10px;
+    padding-right: 12px;
+    text-overflow: ellipsis;
+}
+input {
+    padding-left: 18px!important;
+    color: grey!important;
+}
+.image-gallery-content.left .image-gallery-slide .image-gallery-image, .image-gallery-content.right .image-gallery-slide .image-gallery-image {
+  height: 60vh;
+}
+.MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  width: 0;
+  min-width: 30px;
+  margin-left: 15px;
+}

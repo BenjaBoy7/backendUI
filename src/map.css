@@ -1,0 +1,16 @@
+#map {
+    height: 100%;
+  }
+  
+
+
+  html {
+    box-sizing: border-box;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  .container-for-google-maps {
+    box-sizing: initial;
+  }

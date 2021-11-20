@@ -1,0 +1,188 @@
+{
+    "welcome":"Welcome!",
+    "signintitle":"Sign in your account",
+    "remember":"Remember my preference",
+    "forgetpassword":"Forgot Password?",
+    "signin":"Sign Me In",
+    "faceproblem":"have a problem?",
+    "technicalsupport":"Technical support",
+    "addrole":"Add Role",
+    "dashboard":"Dashboard",
+    "usermanagement":"User Management",
+    "empmanagement":"Manage Employee",
+
+    "logo":"Logo",
+
+    "users":" Users",
+    "allusers":"All",
+    "date":"Date",
+
+    "profile":"Profile",
+    "logout":"Logout",
+    "inbox":"Profile",
+    "agents":"Agents",
+    "employees":"Employees",
+    "agencies":"Agencies",
+    "newagency":"New Agency",
+    "manageagency":"All Agencies",
+    "agencyname":"Agency Name",
+    "agentname":"Agent Name",
+    "status":"Status",
+    
+    "active":"Active",
+    "inactive":"InActive",
+    "draft":"Draft",
+    "all":"All",
+    "sale":"Sale",
+    "rent":"Rent",
+
+
+    "actions":"Actions",
+    "edit":"Edit",
+    "delete":"Delete",
+
+    "furnished":"Furnished",
+    "unfurnished":"Unfurnished",
+
+    "personalinformation":"Personal Information",
+
+    "addproperty":"Add Property",
+
+
+    
+    "propertytype":"Property Type",
+    "title_en":"English Title",
+    "title_ar":"Arabic Title",
+    "description_en":"English Description",
+    "description_ar":"Arabic Description",
+    "area":"Area (Square feet)",
+    "permitnumber":"Permit Number",
+
+
+    "agency_summary_en":" Summary English",
+    "agency_summary_ar":" Summary Arabic",
+
+    "rentfrequency":"Rent Frequency",
+    "mincontract":"Minimum Contract Period",
+    "mantianancefee":"Maintainance Fee",
+    "vacatingperiod":"Vacating Period",
+    "paidby":"Paid by",
+
+    "addagency":"Add Agency",
+    "tradelicense":"Tradelicense",
+    "paytype":"Paytype",
+    "address_en":"Address",
+    "address_ar":"Address Arabic",
+    "totalpackages":"Total Package",
+    "basic":"Basic",
+    "featured":"Featured",
+    "premium":"Premium",
+    "total":"Total",
+    "cash":"Cash",
+    "bank":"Bank",
+
+    "purpose":"Purpose",
+    "location":"Location",
+    "day":"Day",
+
+    "beds":"Beds",
+    "listedby":"Listed By",
+    "listngmanagement":"Manage Listings",
+    "package":"Packages",
+
+    "listing":"Listings",
+    "managelisting":"Manage Listings",
+    "quotausage":"Quota Usage",
+    "dealofweek":"Deal of The Week Bookings",
+
+
+    "listingbylocation":"Listing By Location",
+    "listingbyuser":"Listing By Agent",
+
+    "agent":"Agent",
+
+
+    
+    "reports":"Reports",
+    "reportoverview":"Overview",
+    "trafic":"Trafic",
+    "leads":"Leads",
+
+    "insights":"Insights",
+   
+
+
+    "agency":"Agent Management",
+    "manageuser":"Manage Users",
+    "adduser":"Add New User",
+    "manageteam":"Manage Teams",
+    "reviews":"Reviews",
+    "accountinformation":"Account Information",
+    "name":"Name",
+    "arabicname":"Arabic Name",
+    "email":"Email",
+    "password":"Password",
+    "passwordconfirmation":"Password Confirmation",
+    "mobile":"Mobile",
+    "landing":"Office phone",
+    "whatsapp":"WhatsApp",
+    "agentprofiledetails":"Agent Profile Details",
+    "gender":"Gender",
+    "nationality":"Nationality",
+    "experience":"Experience",
+    "specialist":"Specialist",
+    "specialityarea":"Speciality Areas",
+    "languages":"Languages",
+    "facebook":"Facebook",
+    "twitter":"Twitter",
+    "linkedin":"Linked In",
+    "instegram":"Instegram",
+    "asignlistingquotainfo":"Assign Listing Quota",
+    "asignlistingquota":"Assign Listing Quota",
+    "submit":"  Submit Data",
+    "male":"Male",
+    "female":"Female",
+    "upload":"Image Upload",
+
+    "properties":"properties",
+
+    "companydata":"Companies Depatments",
+    "agencyagents":"Agencies - Agents",
+    "agencyproperties":"Agencies - Properties",
+    "agencyagentsandproperties":"Agencies - Agents & Properties",
+
+    "about":"ABOUT",
+    "services":"SERVICES",
+    "contact":"CONTACT",
+   "forbuy": "FOR Sale",
+   "forrent" : "FOR RENT",
+   "news":"NEWS",
+   "viewdetails":"View Details",
+   "login": "Login",
+   "searchproperty":"Search Property",
+   "search":"Search",
+   "air_condition":"AIR CONDITIONING",
+   "internet": "INTERNET",
+   "parking":"PARKING",
+   "cable_tv":"CABLE TV ",
+   "lift":"Lift",
+   "bedroom":" Bedroom",
+   "bathroom":"Bathroom",
+   "kitchen":"Kitchen",
+   "garage":"Garage",
+   "allcity":"All Cities",
+   "type":"Type",
+   "cat_type":"Category",
+   "price":"Price",
+   "newly":"Newly Added Property",
+   "finddreamhome":"Find Your Dream Home",
+   "loginregister":"Login or Register",
+
+   "category":"Category"
+
+
+   
+}
+
+
+
